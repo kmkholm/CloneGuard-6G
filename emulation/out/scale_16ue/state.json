@@ -1,0 +1,257 @@
+{
+ "project_id": "66652bc7-cdb7-4d7b-8829-d43beec7be11",
+ "nodes": {
+  "sw": "1680f42d-272f-439f-ba9a-bc2609e6ae99",
+  "core": "ee44dccb-7374-4655-a43b-8d96308d8481",
+  "pla": "39b8654b-825a-4370-b092-dd486920b4a8",
+  "rsw1": "ce91e00f-e764-45e7-bbba-cd5db84bbb79",
+  "rsw2": "9372c2d3-8f5a-452d-bbf1-dd471ee327d7",
+  "rsw3": "6e041016-9c1a-4bf1-8dc3-96c4961a5447",
+  "rsw4": "043a1018-df20-43af-9150-b3063d10f6f0",
+  "gnb1": "17c15577-31a2-4b4f-8851-43ec5fe4cce2",
+  "ue1": "e948806f-c5c6-4be8-871e-d61e20c71cdf",
+  "clone1": "43737b62-98c4-4565-8ce6-b847aba3fecc",
+  "gnb2": "dfd24d19-a12e-4da6-92db-aebffa8b76a3",
+  "ue2": "6db1142c-80f0-406b-acea-f5e25168cec4",
+  "clone2": "11d901b6-da15-42ab-a9b0-84ca69deb909",
+  "gnb3": "4269715a-80d4-4e1e-a04f-41d7dc2ceecb",
+  "ue3": "078e586e-68e9-44a0-b31a-a271f73e6efe",
+  "clone3": "4a27b91a-6819-4c90-9b9f-03127b63842d",
+  "gnb4": "87fd05ca-1b66-4723-bdad-c7ac2690f638",
+  "ue4": "004a4ff4-5aa1-407b-818f-f41aba319cf2",
+  "clone4": "0c5d4bf9-a0d2-4bcd-8c6f-4d4501ab1f17"
+ },
+ "scenario": "same_gnb",
+ "subs": [
+  {
+   "imsi": "999700100000001",
+   "k": "e36492f7a394a6d97f74e10558013cd9",
+   "opc": "00f3b443a40423ce242759cb8c059029",
+   "site": 1,
+   "idx": 1,
+   "imei": "356938030100001"
+  },
+  {
+   "imsi": "999700100000002",
+   "k": "78fd447b2ef70adc22b7d37004abbdad",
+   "opc": "0b6426616b5842bebf691d48b310935a",
+   "site": 1,
+   "idx": 2,
+   "imei": "356938030100002"
+  },
+  {
+   "imsi": "999700100000003",
+   "k": "e0cf83418f5d6ebe57c4c8ba5ec1f6cf",
+   "opc": "3ef97133dcd3bfe115c496ad466b4933",
+   "site": 1,
+   "idx": 3,
+   "imei": "356938030100003"
+  },
+  {
+   "imsi": "999700100000004",
+   "k": "9c6a62cb762c6a0920624b88e9beac6f",
+   "opc": "5a6f6272edb9ced0fd0d17a6d64d59b5",
+   "site": 1,
+   "idx": 4,
+   "imei": "356938030100004"
+  },
+  {
+   "imsi": "999700200000001",
+   "k": "c4423c324c54bad2cd8e72bfae8c2fa5",
+   "opc": "5fc1c53dee2de4af362fda27d9052876",
+   "site": 2,
+   "idx": 1,
+   "imei": "356938030200001"
+  },
+  {
+   "imsi": "999700200000002",
+   "k": "e84ef2dcd326c6bfe9759a68dc4ef098",
+   "opc": "b383a6151a18a7d37561f717eefa95ae",
+   "site": 2,
+   "idx": 2,
+   "imei": "356938030200002"
+  },
+  {
+   "imsi": "999700200000003",
+   "k": "3d010fc77078f7346ce4bb5217cc4b4e",
+   "opc": "27f3e59027fdc473e40e747f8a853be5",
+   "site": 2,
+   "idx": 3,
+   "imei": "356938030200003"
+  },
+  {
+   "imsi": "999700200000004",
+   "k": "33a2bf2f75641daedbff85cb6620a749",
+   "opc": "4a2c95fc19d3cad26efefb562f1fecca",
+   "site": 2,
+   "idx": 4,
+   "imei": "356938030200004"
+  },
+  {
+   "imsi": "999700300000001",
+   "k": "0ecc71a15147ed49feae4e9837afcfcc",
+   "opc": "ffe1cd260cda951daafc6c8ffd03c6a1",
+   "site": 3,
+   "idx": 1,
+   "imei": "356938030300001"
+  },
+  {
+   "imsi": "999700300000002",
+   "k": "afb5dee40c97594e421a469b76ccf1bb",
+   "opc": "ae116f4cc4eab937d32cb73d3e4e7940",
+   "site": 3,
+   "idx": 2,
+   "imei": "356938030300002"
+  },
+  {
+   "imsi": "999700300000003",
+   "k": "caf6758beacce15c2d674e93a8c22b08",
+   "opc": "3d1078d926cd2ae86faf148ef1e35aaa",
+   "site": 3,
+   "idx": 3,
+   "imei": "356938030300003"
+  },
+  {
+   "imsi": "999700300000004",
+   "k": "11c90b34cd37bed271c31f521bd78911",
+   "opc": "621c5d78ffbde1ba1f7d37bfce0def3c",
+   "site": 3,
+   "idx": 4,
+   "imei": "356938030300004"
+  },
+  {
+   "imsi": "999700400000001",
+   "k": "00fdb22e83ebc8cbf4e3f6dd7c336b32",
+   "opc": "ed20b9cb0709ce5230d11c5852b157bf",
+   "site": 4,
+   "idx": 1,
+   "imei": "356938030400001"
+  },
+  {
+   "imsi": "999700400000002",
+   "k": "6ee30f0b9fc9ac95413a157327feb145",
+   "opc": "d5e22a5dcf66dbc9699c2a85157779e0",
+   "site": 4,
+   "idx": 2,
+   "imei": "356938030400002"
+  },
+  {
+   "imsi": "999700400000003",
+   "k": "48922299fcb57ced7561414aaf481cde",
+   "opc": "7a31df421d8d6865bad75e2ee29a7a98",
+   "site": 4,
+   "idx": 3,
+   "imei": "356938030400003"
+  },
+  {
+   "imsi": "999700400000004",
+   "k": "9cfe4b0de92fefc986af3986fe20174d",
+   "opc": "825a0b60095c82076c5070906eb47744",
+   "site": 4,
+   "idx": 4,
+   "imei": "356938030400004"
+  }
+ ],
+ "bindings": [
+  {
+   "gnb": 1,
+   "ran_ue": 1,
+   "supi": "imsi-999700100000001"
+  },
+  {
+   "gnb": 1,
+   "ran_ue": 2,
+   "supi": "imsi-999700100000002"
+  },
+  {
+   "gnb": 1,
+   "ran_ue": 3,
+   "supi": "imsi-999700100000003"
+  },
+  {
+   "gnb": 1,
+   "ran_ue": 4,
+   "supi": "imsi-999700100000004"
+  },
+  {
+   "gnb": 1,
+   "ran_ue": 91,
+   "supi": "imsi-999700100000001"
+  },
+  {
+   "gnb": 2,
+   "ran_ue": 1,
+   "supi": "imsi-999700200000001"
+  },
+  {
+   "gnb": 2,
+   "ran_ue": 2,
+   "supi": "imsi-999700200000002"
+  },
+  {
+   "gnb": 2,
+   "ran_ue": 3,
+   "supi": "imsi-999700200000003"
+  },
+  {
+   "gnb": 2,
+   "ran_ue": 4,
+   "supi": "imsi-999700200000004"
+  },
+  {
+   "gnb": 2,
+   "ran_ue": 91,
+   "supi": "imsi-999700200000001"
+  },
+  {
+   "gnb": 3,
+   "ran_ue": 1,
+   "supi": "imsi-999700300000001"
+  },
+  {
+   "gnb": 3,
+   "ran_ue": 2,
+   "supi": "imsi-999700300000002"
+  },
+  {
+   "gnb": 3,
+   "ran_ue": 3,
+   "supi": "imsi-999700300000003"
+  },
+  {
+   "gnb": 3,
+   "ran_ue": 4,
+   "supi": "imsi-999700300000004"
+  },
+  {
+   "gnb": 3,
+   "ran_ue": 91,
+   "supi": "imsi-999700300000001"
+  },
+  {
+   "gnb": 4,
+   "ran_ue": 1,
+   "supi": "imsi-999700400000001"
+  },
+  {
+   "gnb": 4,
+   "ran_ue": 2,
+   "supi": "imsi-999700400000002"
+  },
+  {
+   "gnb": 4,
+   "ran_ue": 3,
+   "supi": "imsi-999700400000003"
+  },
+  {
+   "gnb": 4,
+   "ran_ue": 4,
+   "supi": "imsi-999700400000004"
+  },
+  {
+   "gnb": 4,
+   "ran_ue": 91,
+   "supi": "imsi-999700400000001"
+  }
+ ]
+}

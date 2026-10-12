@@ -1,0 +1,27 @@
+# large or private material: raw data, manuscript, intermediate logs
+data/
+lit/
+paper/
+figures/_*.png
+results/pred/
+results/old_segments/
+results/queue.log
+emulation/out/*/*.tar
+emulation/out/*/core/
+emulation/out/*/gnb*/
+emulation/out/*/ue*/
+emulation/out/*/clone*/
+emulation/out/*/pla/
+emulation/out/failed_*/
+emulation/out_bug_*/
+emulation/out_partial/
+emulation/out_campaign.log
+emulation/model_dichasus_*.pt
+__pycache__/
+*.pyc
+*.aux
+*.log
+*.bbl
+*.blg
+*.out
+*.synctex.gz

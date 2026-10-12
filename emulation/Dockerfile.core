@@ -1,0 +1,17 @@
+# 5G core node: Open5GS 2.7.2 (all network functions) + MongoDB 4.4 (no AVX requirement) + python3 control agent
+FROM gradiant/open5gs:2.7.2
+USER root
+ENV DEBIAN_FRONTEND=noninteractive
+# Debian 11 (bullseye) moved to archive.debian.org
+RUN sed -i 's|deb.debian.org/debian-security|archive.debian.org/debian-security|; s|deb.debian.org/debian |archive.debian.org/debian |' /etc/apt/sources.list \
+ && sed -i '/bullseye-updates/d' /etc/apt/sources.list \
+ && apt-get -o Acquire::Check-Valid-Until=false update && apt-get install -y --no-install-recommends \
+      ca-certificates curl gnupg python3 iproute2 iptables iputils-ping procps gettext-base \
+ && curl -fsSL https://pgp.mongodb.com/server-4.4.asc | gpg --dearmor -o /usr/share/keyrings/mongodb-server-4.4.gpg \
+ && echo "deb [signed-by=/usr/share/keyrings/mongodb-server-4.4.gpg] http://repo.mongodb.org/apt/debian buster/mongodb-org/4.4 main" \
+      > /etc/apt/sources.list.d/mongodb-org-4.4.list \
+ && apt-get -o Acquire::Check-Valid-Until=false update && apt-get install -y --no-install-recommends mongodb-org-server mongodb-org-shell \
+ && rm -rf /var/lib/apt/lists/* && mkdir -p /data/db /opt/open5gs/var/log/open5gs
+COPY node.py /app/node.py
+ENTRYPOINT []
+CMD ["python3", "/app/node.py"]

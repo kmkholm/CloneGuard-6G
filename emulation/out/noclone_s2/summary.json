@@ -1,0 +1,119 @@
+{
+ "run": "out/noclone_s2/",
+ "clones": [],
+ "legit": [
+  {
+   "supi": "imsi-999700100000001",
+   "node": "ue1",
+   "n_scores": 31,
+   "alarms": 1,
+   "reg_failed": 0,
+   "victim_of_clone": false,
+   "false_detect": 0,
+   "pings": 187,
+   "ping_ok": 175,
+   "logit_mean": -5.246199554012668,
+   "inf_ms": 30.206006071027296
+  },
+  {
+   "supi": "imsi-999700200000001",
+   "node": "ue2",
+   "n_scores": 31,
+   "alarms": 0,
+   "reg_failed": 0,
+   "victim_of_clone": false,
+   "false_detect": 0,
+   "pings": 185,
+   "ping_ok": 173,
+   "logit_mean": -5.679943869190831,
+   "inf_ms": 28.23494086445909
+  },
+  {
+   "supi": "imsi-999700100000002",
+   "node": "ue1",
+   "n_scores": 31,
+   "alarms": 0,
+   "reg_failed": 0,
+   "victim_of_clone": false,
+   "false_detect": 0,
+   "pings": 183,
+   "ping_ok": 171,
+   "logit_mean": -4.841017192409884,
+   "inf_ms": 30.206006071027296
+  },
+  {
+   "supi": "imsi-999700300000001",
+   "node": "ue3",
+   "n_scores": 24,
+   "alarms": 0,
+   "reg_failed": 0,
+   "victim_of_clone": false,
+   "false_detect": 0,
+   "pings": 186,
+   "ping_ok": 170,
+   "logit_mean": -5.5488797426223755,
+   "inf_ms": 31.562173417208736
+  },
+  {
+   "supi": "imsi-999700200000002",
+   "node": "ue2",
+   "n_scores": 32,
+   "alarms": 0,
+   "reg_failed": 0,
+   "victim_of_clone": false,
+   "false_detect": 0,
+   "pings": 182,
+   "ping_ok": 170,
+   "logit_mean": -5.315793476998806,
+   "inf_ms": 28.286528740641973
+  },
+  {
+   "supi": "imsi-999700400000001",
+   "node": "ue4",
+   "n_scores": 29,
+   "alarms": 0,
+   "reg_failed": 0,
+   "victim_of_clone": false,
+   "false_detect": 0,
+   "pings": 189,
+   "ping_ok": 170,
+   "logit_mean": -5.598685133046117,
+   "inf_ms": 30.516320330553803
+  },
+  {
+   "supi": "imsi-999700300000002",
+   "node": "ue3",
+   "n_scores": 25,
+   "alarms": 0,
+   "reg_failed": 0,
+   "victim_of_clone": false,
+   "false_detect": 0,
+   "pings": 183,
+   "ping_ok": 167,
+   "logit_mean": -5.562870693206787,
+   "inf_ms": 31.511119275712307
+  },
+  {
+   "supi": "imsi-999700400000002",
+   "node": "ue4",
+   "n_scores": 28,
+   "alarms": 0,
+   "reg_failed": 0,
+   "victim_of_clone": false,
+   "false_detect": 0,
+   "pings": 185,
+   "ping_ok": 166,
+   "logit_mean": -5.718548945018223,
+   "inf_ms": 29.091054272685486
+  }
+ ],
+ "health": {
+  "n_scores": 231,
+  "max_score_gap_s": 2.906871795654297,
+  "t_first_pdu": 1791818188.341349,
+  "t_last_event": 1791818404.8987923,
+  "clones_with_pdu": 0,
+  "n_clones": 0,
+  "ok": true
+ }
+}
